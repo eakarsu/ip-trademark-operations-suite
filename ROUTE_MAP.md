@@ -7,6 +7,12 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/opposition-deadlines`
+- `/brand-infringement-review`
+- `/trademark-watchlist`
+- `/patent-filing-packet`
+- `/claims-chart`
+- `/prior-art-search`
 - `/records`
 - `/workspaces`
 - `/requests`

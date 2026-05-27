@@ -10,6 +10,80 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "trademark-brand-protection-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Trademark Brand Protection workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AITrademarkBrandProtectionMonitor"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Trademark Brand Protection source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AITrademarkBrandProtectionMonitor"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AITrademarkBrandProtectionMonitor"
+    }
+  ],
+  "patent-research-filing-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Patent Research Filing workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIPatentResearchFiling"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Patent Research Filing source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIPatentResearchFiling"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIPatentResearchFiling"
+    }
+  ],
   "ai-patent-research-filing-ai-14x2lo-exact-ai": [
     {
       "name": "abstract",

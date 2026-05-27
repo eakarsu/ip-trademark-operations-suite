@@ -1,5 +1,33 @@
 export const sourceProjectTools = [
   {
+    "id": "trademark-brand-protection-copilot",
+    "title": "Trademark Brand Protection Copilot",
+    "category": "Trademark Brand Protection",
+    "description": "Focused Trademark Brand Protection AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Trademark Brand Protection context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Trademark Brand Protection context",
+    "outputLabel": "Trademark Brand Protection AI response",
+    "signals": [
+      "Trademark Watchlist",
+      "Brand Infringement Review",
+      "Opposition Deadlines"
+    ]
+  },
+  {
+    "id": "patent-research-filing-copilot",
+    "title": "Patent Research Filing Copilot",
+    "category": "Patent Research Filing",
+    "description": "Focused Patent Research Filing AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Patent Research Filing context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Patent Research Filing context",
+    "outputLabel": "Patent Research Filing AI response",
+    "signals": [
+      "Prior Art Search",
+      "Claims Chart",
+      "Patent Filing Packet"
+    ]
+  },
+  {
     "id": "ai-patent-research-filing-source-workflow",
     "title": "AI Patent Research Filing Source Workflow",
     "category": "Source Project Coverage",
